@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61CC2A311E7E550A002D41EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CC2A301E7E550A002D41EA /* AppDelegate.m */; };
+		61CC2A341E7E550A002D41EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CC2A331E7E550A002D41EA /* main.m */; };
+		61CC2A371E7E550A002D41EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CC2A361E7E550A002D41EA /* ViewController.m */; };
+		61CC2A3A1E7E550A002D41EA /* R_Cast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61CC2A381E7E550A002D41EA /* R_Cast.xcdatamodeld */; };
+		61CC2A3C1E7E550A002D41EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61CC2A3B1E7E550A002D41EA /* Assets.xcassets */; };
+		61CC2A3F1E7E550B002D41EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61CC2A3D1E7E550B002D41EA /* Main.storyboard */; };
+		61CC2A4A1E7E550B002D41EA /* R_CastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CC2A491E7E550B002D41EA /* R_CastTests.m */; };
+		61CC2A551E7E550B002D41EA /* R_CastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CC2A541E7E550B002D41EA /* R_CastUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61CC2A461E7E550B002D41EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61CC2A241E7E550A002D41EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61CC2A2B1E7E550A002D41EA;
+			remoteInfo = "R-Cast";
+		};
+		61CC2A511E7E550B002D41EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61CC2A241E7E550A002D41EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61CC2A2B1E7E550A002D41EA;
+			remoteInfo = "R-Cast";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61CC2A2C1E7E550A002D41EA /* R-Cast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R-Cast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CC2A2F1E7E550A002D41EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61CC2A301E7E550A002D41EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61CC2A331E7E550A002D41EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61CC2A351E7E550A002D41EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61CC2A361E7E550A002D41EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61CC2A391E7E550A002D41EA /* R_Cast.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = R_Cast.xcdatamodel; sourceTree = "<group>"; };
+		61CC2A3B1E7E550A002D41EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61CC2A3E1E7E550B002D41EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61CC2A401E7E550B002D41EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61CC2A451E7E550B002D41EA /* R-CastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "R-CastTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CC2A491E7E550B002D41EA /* R_CastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = R_CastTests.m; sourceTree = "<group>"; };
+		61CC2A4B1E7E550B002D41EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61CC2A501E7E550B002D41EA /* R-CastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "R-CastUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CC2A541E7E550B002D41EA /* R_CastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = R_CastUITests.m; sourceTree = "<group>"; };
+		61CC2A561E7E550B002D41EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61CC2A291E7E550A002D41EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CC2A421E7E550B002D41EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CC2A4D1E7E550B002D41EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61CC2A231E7E550A002D41EA = {
+			isa = PBXGroup;
+			children = (
+				61CC2A2E1E7E550A002D41EA /* R-Cast */,
+				61CC2A481E7E550B002D41EA /* R-CastTests */,
+				61CC2A531E7E550B002D41EA /* R-CastUITests */,
+				61CC2A2D1E7E550A002D41EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61CC2A2D1E7E550A002D41EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61CC2A2C1E7E550A002D41EA /* R-Cast.app */,
+				61CC2A451E7E550B002D41EA /* R-CastTests.xctest */,
+				61CC2A501E7E550B002D41EA /* R-CastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61CC2A2E1E7E550A002D41EA /* R-Cast */ = {
+			isa = PBXGroup;
+			children = (
+				61CC2A2F1E7E550A002D41EA /* AppDelegate.h */,
+				61CC2A301E7E550A002D41EA /* AppDelegate.m */,
+				61CC2A351E7E550A002D41EA /* ViewController.h */,
+				61CC2A361E7E550A002D41EA /* ViewController.m */,
+				61CC2A3B1E7E550A002D41EA /* Assets.xcassets */,
+				61CC2A3D1E7E550B002D41EA /* Main.storyboard */,
+				61CC2A401E7E550B002D41EA /* Info.plist */,
+				61CC2A381E7E550A002D41EA /* R_Cast.xcdatamodeld */,
+				61CC2A321E7E550A002D41EA /* Supporting Files */,
+			);
+			path = "R-Cast";
+			sourceTree = "<group>";
+		};
+		61CC2A321E7E550A002D41EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61CC2A331E7E550A002D41EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61CC2A481E7E550B002D41EA /* R-CastTests */ = {
+			isa = PBXGroup;
+			children = (
+				61CC2A491E7E550B002D41EA /* R_CastTests.m */,
+				61CC2A4B1E7E550B002D41EA /* Info.plist */,
+			);
+			path = "R-CastTests";
+			sourceTree = "<group>";
+		};
+		61CC2A531E7E550B002D41EA /* R-CastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61CC2A541E7E550B002D41EA /* R_CastUITests.m */,
+				61CC2A561E7E550B002D41EA /* Info.plist */,
+			);
+			path = "R-CastUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61CC2A2B1E7E550A002D41EA /* R-Cast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61CC2A591E7E550B002D41EA /* Build configuration list for PBXNativeTarget "R-Cast" */;
+			buildPhases = (
+				61CC2A281E7E550A002D41EA /* Sources */,
+				61CC2A291E7E550A002D41EA /* Frameworks */,
+				61CC2A2A1E7E550A002D41EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "R-Cast";
+			productName = "R-Cast";
+			productReference = 61CC2A2C1E7E550A002D41EA /* R-Cast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61CC2A441E7E550B002D41EA /* R-CastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61CC2A5C1E7E550B002D41EA /* Build configuration list for PBXNativeTarget "R-CastTests" */;
+			buildPhases = (
+				61CC2A411E7E550B002D41EA /* Sources */,
+				61CC2A421E7E550B002D41EA /* Frameworks */,
+				61CC2A431E7E550B002D41EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61CC2A471E7E550B002D41EA /* PBXTargetDependency */,
+			);
+			name = "R-CastTests";
+			productName = "R-CastTests";
+			productReference = 61CC2A451E7E550B002D41EA /* R-CastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61CC2A4F1E7E550B002D41EA /* R-CastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61CC2A5F1E7E550B002D41EA /* Build configuration list for PBXNativeTarget "R-CastUITests" */;
+			buildPhases = (
+				61CC2A4C1E7E550B002D41EA /* Sources */,
+				61CC2A4D1E7E550B002D41EA /* Frameworks */,
+				61CC2A4E1E7E550B002D41EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61CC2A521E7E550B002D41EA /* PBXTargetDependency */,
+			);
+			name = "R-CastUITests";
+			productName = "R-CastUITests";
+			productReference = 61CC2A501E7E550B002D41EA /* R-CastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61CC2A241E7E550A002D41EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "R-Works";
+				TargetAttributes = {
+					61CC2A2B1E7E550A002D41EA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X83H9S2D32;
+						ProvisioningStyle = Automatic;
+					};
+					61CC2A441E7E550B002D41EA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X83H9S2D32;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61CC2A2B1E7E550A002D41EA;
+					};
+					61CC2A4F1E7E550B002D41EA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X83H9S2D32;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61CC2A2B1E7E550A002D41EA;
+					};
+				};
+			};
+			buildConfigurationList = 61CC2A271E7E550A002D41EA /* Build configuration list for PBXProject "R-Cast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61CC2A231E7E550A002D41EA;
+			productRefGroup = 61CC2A2D1E7E550A002D41EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61CC2A2B1E7E550A002D41EA /* R-Cast */,
+				61CC2A441E7E550B002D41EA /* R-CastTests */,
+				61CC2A4F1E7E550B002D41EA /* R-CastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61CC2A2A1E7E550A002D41EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CC2A3C1E7E550A002D41EA /* Assets.xcassets in Resources */,
+				61CC2A3F1E7E550B002D41EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CC2A431E7E550B002D41EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CC2A4E1E7E550B002D41EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61CC2A281E7E550A002D41EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CC2A371E7E550A002D41EA /* ViewController.m in Sources */,
+				61CC2A341E7E550A002D41EA /* main.m in Sources */,
+				61CC2A311E7E550A002D41EA /* AppDelegate.m in Sources */,
+				61CC2A3A1E7E550A002D41EA /* R_Cast.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CC2A411E7E550B002D41EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CC2A4A1E7E550B002D41EA /* R_CastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61CC2A4C1E7E550B002D41EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CC2A551E7E550B002D41EA /* R_CastUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61CC2A471E7E550B002D41EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61CC2A2B1E7E550A002D41EA /* R-Cast */;
+			targetProxy = 61CC2A461E7E550B002D41EA /* PBXContainerItemProxy */;
+		};
+		61CC2A521E7E550B002D41EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61CC2A2B1E7E550A002D41EA /* R-Cast */;
+			targetProxy = 61CC2A511E7E550B002D41EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61CC2A3D1E7E550B002D41EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61CC2A3E1E7E550B002D41EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61CC2A571E7E550B002D41EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		61CC2A581E7E550B002D41EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		61CC2A5A1E7E550B002D41EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X83H9S2D32;
+				INFOPLIST_FILE = "R-Cast/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RWorks.R-Cast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61CC2A5B1E7E550B002D41EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X83H9S2D32;
+				INFOPLIST_FILE = "R-Cast/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RWorks.R-Cast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		61CC2A5D1E7E550B002D41EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X83H9S2D32;
+				INFOPLIST_FILE = "R-CastTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RWorks.R-CastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/R-Cast.app/Contents/MacOS/R-Cast";
+			};
+			name = Debug;
+		};
+		61CC2A5E1E7E550B002D41EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X83H9S2D32;
+				INFOPLIST_FILE = "R-CastTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RWorks.R-CastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/R-Cast.app/Contents/MacOS/R-Cast";
+			};
+			name = Release;
+		};
+		61CC2A601E7E550B002D41EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X83H9S2D32;
+				INFOPLIST_FILE = "R-CastUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RWorks.R-CastUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "R-Cast";
+			};
+			name = Debug;
+		};
+		61CC2A611E7E550B002D41EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = X83H9S2D32;
+				INFOPLIST_FILE = "R-CastUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RWorks.R-CastUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "R-Cast";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61CC2A271E7E550A002D41EA /* Build configuration list for PBXProject "R-Cast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CC2A571E7E550B002D41EA /* Debug */,
+				61CC2A581E7E550B002D41EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61CC2A591E7E550B002D41EA /* Build configuration list for PBXNativeTarget "R-Cast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CC2A5A1E7E550B002D41EA /* Debug */,
+				61CC2A5B1E7E550B002D41EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61CC2A5C1E7E550B002D41EA /* Build configuration list for PBXNativeTarget "R-CastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CC2A5D1E7E550B002D41EA /* Debug */,
+				61CC2A5E1E7E550B002D41EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61CC2A5F1E7E550B002D41EA /* Build configuration list for PBXNativeTarget "R-CastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CC2A601E7E550B002D41EA /* Debug */,
+				61CC2A611E7E550B002D41EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		61CC2A381E7E550A002D41EA /* R_Cast.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				61CC2A391E7E550A002D41EA /* R_Cast.xcdatamodel */,
+			);
+			currentVersion = 61CC2A391E7E550A002D41EA /* R_Cast.xcdatamodel */;
+			path = R_Cast.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 61CC2A241E7E550A002D41EA /* Project object */;
+}
