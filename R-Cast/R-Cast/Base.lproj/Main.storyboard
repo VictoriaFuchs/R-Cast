@@ -682,7 +682,7 @@
         <!--R-Cast-->
         <scene sceneID="RZ8-pB-jC2">
             <objects>
-                <viewController title="R-Cast" id="sRT-gy-fVP" sceneMemberID="viewController">
+                <viewController title="R-Cast" id="sRT-gy-fVP" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" id="Hdr-QP-C78">
                         <rect key="frame" x="0.0" y="0.0" width="950" height="587"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -779,7 +779,7 @@
                                                                             </buttonCell>
                                                                         </button>
                                                                         <browser verticalHuggingPriority="750" fixedFrame="YES" allowsExpansionToolTips="YES" enabled="YES" allowsEmptySelection="YES" defaultColumnWidth="100" minColumnWidth="100" maxVisibleColumns="1" allowsTypeSelect="YES" sendsActionOnArrowKeys="YES" columnsAutosaveName="Local Devices" columnResizingType="auto" translatesAutoresizingMaskIntoConstraints="NO" id="g2t-hA-dDg">
-                                                                            <rect key="frame" x="277" y="43" width="569" height="189"/>
+                                                                            <rect key="frame" x="313" y="42" width="525" height="190"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                             <shadow key="shadow" blurRadius="2">
                                                                                 <color key="color" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
@@ -797,6 +797,15 @@
                                                                     <rect key="frame" x="0.0" y="0.0" width="895" height="240"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
+                                                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wl4-Sz-Mma">
+                                                                            <rect key="frame" x="338" y="182" width="218" height="24"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Toggle Available Services" id="QXt-Kg-FgZ">
+                                                                                <font key="font" size="20" name="HelveticaNeue-UltraLight"/>
+                                                                                <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                            </textFieldCell>
+                                                                        </textField>
                                                                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yw9-xy-LRi">
                                                                             <rect key="frame" x="51" y="108" width="195" height="25"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -845,6 +854,30 @@
                                                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                             </textFieldCell>
                                                                         </textField>
+                                                                        <box fixedFrame="YES" borderType="none" title="SwitchLAN" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="UyF-wv-umr" userLabel="SwitchVPN">
+                                                                            <rect key="frame" x="64" y="29" width="170" height="114"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                                            <view key="contentView" ambiguous="YES" id="f45-oB-AjW">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="170" height="114"/>
+                                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                                                <subviews>
+                                                                                    <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UNe-hN-RcM">
+                                                                                        <rect key="frame" x="27" y="37" width="116" height="24"/>
+                                                                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                                                                        <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="selectOne" id="Bln-oc-N9g">
+                                                                                            <font key="font" size="13" name="HelveticaNeue-UltraLight"/>
+                                                                                            <segments>
+                                                                                                <segment label="ON" width="54"/>
+                                                                                                <segment label="OFF" width="53" selected="YES" tag="1"/>
+                                                                                            </segments>
+                                                                                        </segmentedCell>
+                                                                                    </segmentedControl>
+                                                                                </subviews>
+                                                                            </view>
+                                                                            <shadow key="shadow" blurRadius="2">
+                                                                                <color key="color" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            </shadow>
+                                                                        </box>
                                                                         <box fixedFrame="YES" borderType="none" title="SwitchLAN" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="oTc-23-4X9">
                                                                             <rect key="frame" x="262" y="29" width="170" height="114"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -917,46 +950,13 @@
                                                                                 <color key="color" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                                                             </shadow>
                                                                         </box>
-                                                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wl4-Sz-Mma">
-                                                                            <rect key="frame" x="338" y="182" width="218" height="24"/>
-                                                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Toggle Available Services" id="QXt-Kg-FgZ">
-                                                                                <font key="font" size="20" name="HelveticaNeue-UltraLight"/>
-                                                                                <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                                                            </textFieldCell>
-                                                                        </textField>
-                                                                        <box fixedFrame="YES" borderType="none" title="SwitchLAN" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="UyF-wv-umr">
-                                                                            <rect key="frame" x="64" y="29" width="170" height="114"/>
-                                                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                                                            <view key="contentView" ambiguous="YES" id="f45-oB-AjW">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="170" height="114"/>
-                                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                                                <subviews>
-                                                                                    <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UNe-hN-RcM">
-                                                                                        <rect key="frame" x="27" y="37" width="116" height="24"/>
-                                                                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                                                                        <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="selectOne" id="Bln-oc-N9g">
-                                                                                            <font key="font" size="13" name="HelveticaNeue-UltraLight"/>
-                                                                                            <segments>
-                                                                                                <segment label="ON" width="54"/>
-                                                                                                <segment label="OFF" width="53" selected="YES" tag="1"/>
-                                                                                            </segments>
-                                                                                        </segmentedCell>
-                                                                                    </segmentedControl>
-                                                                                </subviews>
-                                                                            </view>
-                                                                            <shadow key="shadow" blurRadius="2">
-                                                                                <color key="color" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
-                                                                            </shadow>
-                                                                        </box>
                                                                     </subviews>
                                                                 </view>
                                                                 <color key="borderColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <color key="fillColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             </box>
                                                             <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="28h-VD-Zq1">
-                                                                <rect key="frame" x="0.0" y="242" width="904" height="61"/>
+                                                                <rect key="frame" x="0.0" y="176" width="904" height="179"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                                 <shadow key="shadow">
                                                                     <color key="color" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -973,7 +973,7 @@
                                                         <rect key="frame" x="10" y="33" width="904" height="531"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
-                                                            <box fixedFrame="YES" boxType="custom" borderType="none" title="AudioVideo" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="sqJ-pE-toU">
+                                                            <box fixedFrame="YES" boxType="custom" borderType="none" title="AudioVideo" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="sqJ-pE-toU" userLabel="Monitors | Audio Devices">
                                                                 <rect key="frame" x="9" y="277" width="886" height="259"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                                                 <view key="contentView" ambiguous="YES" id="opM-n6-gbh">
@@ -1025,7 +1025,7 @@
                                                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                             </textFieldCell>
                                                                         </textField>
-                                                                        <box fixedFrame="YES" borderType="none" title="Switch" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="Abc-Gs-lsn">
+                                                                        <box fixedFrame="YES" borderType="none" title="Switch" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="Abc-Gs-lsn" userLabel="Switch Monitor">
                                                                             <rect key="frame" x="92" y="94" width="168" height="51"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                                             <view key="contentView" ambiguous="YES" id="GVA-go-gvW">
@@ -1049,7 +1049,7 @@
                                                                                 <color key="color" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                                                             </shadow>
                                                                         </box>
-                                                                        <box fixedFrame="YES" borderType="none" title="Switch" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="5gW-lG-Te2">
+                                                                        <box fixedFrame="YES" borderType="none" title="Switch" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="5gW-lG-Te2" userLabel="Switch Webcam">
                                                                             <rect key="frame" x="270" y="94" width="168" height="51"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                                             <view key="contentView" ambiguous="YES" id="5I5-mf-Mzk">
@@ -1073,7 +1073,7 @@
                                                                                 <color key="color" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                                                             </shadow>
                                                                         </box>
-                                                                        <box fixedFrame="YES" borderType="none" title="Switch" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="9bX-yp-dbs">
+                                                                        <box fixedFrame="YES" borderType="none" title="Switch" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="9bX-yp-dbs" userLabel="Switch Audio Out">
                                                                             <rect key="frame" x="448" y="94" width="168" height="51"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                                             <view key="contentView" ambiguous="YES" id="I1Z-c5-oww">
@@ -1097,7 +1097,7 @@
                                                                                 <color key="color" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                                                             </shadow>
                                                                         </box>
-                                                                        <box fixedFrame="YES" borderType="none" title="Switch" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="lB3-OS-e3C">
+                                                                        <box fixedFrame="YES" borderType="none" title="Switch" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="lB3-OS-e3C" userLabel="Switch Audio In">
                                                                             <rect key="frame" x="626" y="94" width="167" height="51"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                                             <view key="contentView" ambiguous="YES" id="Eko-5n-ceO">
@@ -1131,7 +1131,7 @@
                                                                     </subviews>
                                                                 </view>
                                                             </box>
-                                                            <box fixedFrame="YES" borderType="none" title="AudioVideo" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="YBL-HH-waQ">
+                                                            <box fixedFrame="YES" borderType="none" title="AudioVideo" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="YBL-HH-waQ" userLabel="Peripherals | Input Devices">
                                                                 <rect key="frame" x="6" y="-6" width="892" height="277"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <view key="contentView" ambiguous="YES" id="HMh-jH-SDA">
@@ -1297,10 +1297,29 @@
                             </box>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="ButtonAvailable" destination="Sk0-5s-0OQ" id="cfS-2q-5j0"/>
+                        <outlet property="ButtonConnect" destination="dnH-Ln-B8B" id="gHg-Fg-IUB"/>
+                        <outlet property="ButtonRefresh" destination="Pga-rc-BgL" id="8Dy-XG-oop"/>
+                        <outlet property="ButtonRemember" destination="hjd-yi-oeb" id="lJa-13-haI"/>
+                        <outlet property="ButtonSearch" destination="JcM-sZ-lYh" id="sD0-X8-poQ"/>
+                        <outlet property="SwitchAudioIn" destination="Rxg-Qe-IY9" id="kdS-TD-qLk"/>
+                        <outlet property="SwitchAudioOut" destination="fsR-SA-4jC" id="5XX-jH-kyE"/>
+                        <outlet property="SwitchBT" destination="yVn-AP-QrX" id="oyw-fe-EE9"/>
+                        <outlet property="SwitchKeyboard" destination="HR0-3O-5By" id="0kC-f5-sZe"/>
+                        <outlet property="SwitchLAN" destination="UJR-xI-M12" id="Ri9-Er-nq1"/>
+                        <outlet property="SwitchMonitor" destination="yEd-f4-8hV" id="Ujx-gp-CsY"/>
+                        <outlet property="SwitchMouse" destination="0mL-s2-FQM" id="9x2-1w-CjO"/>
+                        <outlet property="SwitchPrint" destination="WQ5-Bo-m8k" id="Sn2-1k-1gP"/>
+                        <outlet property="SwitchUSB" destination="8Kk-kl-I1q" id="Sx6-gr-fIu"/>
+                        <outlet property="SwitchVPN" destination="UNe-hN-RcM" id="sh0-w3-hmS"/>
+                        <outlet property="SwitchWLAN" destination="Tgn-15-3sr" id="HrN-Zc-TIf"/>
+                        <outlet property="SwitchWebcam" destination="pbu-74-m7f" id="BO4-jC-AAf"/>
+                    </connections>
                 </viewController>
                 <customObject id="b1F-Oh-uYX" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="67" y="863"/>
+            <point key="canvasLocation" x="67" y="862.5"/>
         </scene>
     </scenes>
 </document>
