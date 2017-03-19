@@ -513,6 +513,7 @@
 				61CC2A5B1E7E550B002D41EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61CC2A5C1E7E550B002D41EA /* Build configuration list for PBXNativeTarget "R-CastTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +522,7 @@
 				61CC2A5E1E7E550B002D41EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61CC2A5F1E7E550B002D41EA /* Build configuration list for PBXNativeTarget "R-CastUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +531,7 @@
 				61CC2A611E7E550B002D41EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
